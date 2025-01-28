@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Flipkart {
-@FindBy(xpath="//span[text()='Mobiles']")
+@FindBy(xpath="//span[text()='Tablets']")
 private WebElement mob;
 @FindBy(xpath="//img[@alt='Motorola Edge 50 Neo (PANTONE Nautical Blue, 256 GB)']")
 private WebElement phone;
