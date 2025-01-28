@@ -9,6 +9,11 @@ public class PomScript {
 
 	@FindBy(id="email")
 	private WebElement uName;
+	
+
+	@FindBy(id="pass")
+	private WebElement pwd;
+	
 	public PomScript(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -17,5 +22,7 @@ public class PomScript {
 	{
 		uName.sendKeys("admin");
 	}
+	
+	
 }
 
