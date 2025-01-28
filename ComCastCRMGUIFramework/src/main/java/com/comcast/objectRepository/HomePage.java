@@ -18,6 +18,9 @@ public class HomePage extends WebdriverUtility {
 	@FindBy(linkText ="Contacts")
 	private WebElement ContactLink;
 	
+	@FindBy(linkText ="Vendors")
+	private WebElement VendorLink;
+	
 	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
 	private WebElement admin;
 	
