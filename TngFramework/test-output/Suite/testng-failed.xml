@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="adhoc"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="groups.Group3">
+        <methods>
+          <include name="Fb"/>
+        </methods>
+      </class> <!-- groups.Group3 -->
+      <class name="groups.Group4">
+        <methods>
+          <include name="validData"/>
+        </methods>
+      </class> <!-- groups.Group4 -->
+      <class name="groups.Group5">
+        <methods>
+          <include name="disp"/>
+        </methods>
+      </class> <!-- groups.Group5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
